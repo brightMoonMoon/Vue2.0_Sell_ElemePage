@@ -1,0 +1,24 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      // 并且设置amd common.js这样的模块化文件文件，不进行转码
+      "targets": {
+        // 这个是针对浏览器，过去两个版本，大于ie8
+        "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+      }
+    }],
+    "stage-2"
+    // 这个是es草案  数字越小， 说明包含的月多
+  ],
+  "plugins": ["transform-runtime"],
+  // 下面这个选项是引用插件来处理代码转换。transform-runtime用来处理全局优化和babel编译
+  "env": {
+    "test": {
+      //test 是提前设置的环境变量，如果没有设置BABEL_ENV则使用NODE_ENV，如果都没有设置默认就是development
+      "presets": ["env", "stage-2"],
+      // 下面这个是一个用来测试转换后代码的工具
+      "plugins": ["istanbul"]
+    }
+  }
+}
