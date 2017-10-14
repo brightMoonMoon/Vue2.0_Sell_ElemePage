@@ -20,7 +20,7 @@ vue-cli,so convenient，推荐对vue有一定了解的同学使用，作用如�
 项目中用了大量的better-scroll方法，值得注意的地方是在获得数据或者数据改动的时候，要在nextTick里执行。附上[git地址](https://github.com/ustbhuangyi/better-scroll)
 ## sass
 个人更喜欢用sass,真心不习惯没有花括号和分号
-### vue1.0和vue2.0改动地方
+### vue1.0和vue2.0不一样的地方
    * 元素和组件v-el变成ref
    * 组件间$broadcast、$dispatch变成$emit、$on
    * 过渡方法由原来的写在元素里面变成了包裹在元素外边
