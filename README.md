@@ -17,7 +17,7 @@ vue-cli,so convenient，推荐对vue有一定了解的同学使用，作用如�
 用其来创建单页面应用，是非常简单的。用 Vue.js ，我们已经可以通过组合组件来组成应用程序，当你要把 vue-router 添加进来，我们需要做的是，将组件(components)映射到路由(routes)，然后告诉 vue-router 在哪里渲染它们
 ### better-scroll
 项目中用了大量的better-scroll方法，值得注意的地方是在获得数据或者数据改动的时候，要在nextTick里执行。附上[git地址](https://github.com/ustbhuangyi/better-scroll)
-## sass
+### sass
 个人更喜欢用sass,真心不习惯没有花括号和分号
 ### vue1.0和vue2.0不一样的地方
    * 元素和组件v-el变成ref
