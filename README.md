@@ -2,7 +2,6 @@ vue解放了对DOM的操作，极大地便利了开发。因此把自己练习�
 # 饿了么商家页面点餐系统
 技术栈：vue2.0+vue-router+axios+webpack+es6+better-scroll
 ## 构建
----
 vue-cli,so convenient，推荐对vue有一定了解的同学使用，作用如下。  
 * 清晰化目录结构  
 * 本地调试
