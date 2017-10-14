@@ -23,7 +23,8 @@ vue-cli,so convenient，推荐对vue有一定了解的同学使用，作用如�
 ### vue1.0和vue2.0改动地方
    * 元素和组件v-el变成ref
    * 组件间$broadcast、$dispatch变成$emit、$on
-   * 过渡方法由原来的写在元素里面变成了包裹在元素外面
+   * 过渡方法由原来的写在元素里面变成了包裹在元素外面
+ 
        ```html 
        //1.0
        <div transition></div>
